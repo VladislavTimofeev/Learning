@@ -3,6 +3,15 @@ package by.training.arrays;
 import java.util.Random;
 
 public class ArrayAlgorithms {
+    public static void printMore() {
+        int[] array = new int[]{1, 5, 3, 6, 8, 9, 2, 5, 11, 19};
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] > i) {
+                System.out.println("array[" + i + "] = " + array[i]);
+            }
+        }
+    }
+
     public static void changePlace() {
         int[] array = new int[]{-1, 2, 3, 4, 8, 54, 32, 9, 0, 5, 77, 21, 66, 0, 35};
         int minM = array[0];
