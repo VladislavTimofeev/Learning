@@ -1,11 +1,10 @@
 package by.training;
 
-import by.training.arrays.ArrayAlgorithms;
+import by.training.sorting.Sorting;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayAlgorithms.printMore();
+        Sorting.InSorting();
 
     }
-
 }

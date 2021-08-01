@@ -3,6 +3,20 @@ package by.training.arrays;
 import java.util.Random;
 
 public class ArrayAlgorithms {
+    public static void printSum() {
+        int[] array = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21};
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 == 0) {
+                System.out.println("Число " + i + " составное");
+            } else {
+                System.out.println("Число " + i + " простое");
+                sum += array[i];
+            }
+        }
+        System.out.println(sum);
+    }
+
     public static void printMore() {
         int[] array = new int[]{1, 5, 3, 6, 8, 9, 2, 5, 11, 19};
         for (int i = 0; i < array.length; i++) {
